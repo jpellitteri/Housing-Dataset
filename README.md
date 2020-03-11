@@ -6,6 +6,9 @@ The task is to see how well we can predict house price in the Boston Housing Dat
 I first used Linear Regression, a common supervised machine learning algorithm.  The results were 85% variance score, which means the change in variables I chose for X explain 85% of the change in the y variable, price.  
 
 # Random Forest Regression
-Random Forest Regression 
+Random Forest Regression is an ensemble machine learning method that aggregates results of many decision trees to reduce over-fitting.  At first I used 500 decision trees in the algorithm.  I increased the decision trees to 1000 which only increased the accuracy to 85%, the same as the linear regression results.  
+
+# Recommendation
+For further analysis, I would experiment with using more of the variables in the dataset to predict house pricing.  Principal Component Analysis might be beneficial to scale down the features and get a more simplified model.  
 
 
